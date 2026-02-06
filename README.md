@@ -22,6 +22,9 @@ GET /users/1 → ❌ old data from cache
 
 
 **Annotation	Purpose**
-@Cacheable	Read & cache
-@CachePut	Update cache with new value
-@CacheEvict	Remove cache
+
+@Cacheable	   Read & cache
+
+@CachePut	     Update cache with new value
+
+@CacheEvict	    Remove cache
