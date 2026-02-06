@@ -19,6 +19,8 @@ PUT /users/1 → DB updated
 GET /users/1 → ❌ old data from cache
 
 👉 This happens unless you evict the cache.
+
+
 **Annotation	Purpose**
 @Cacheable	Read & cache
 @CachePut	Update cache with new value
